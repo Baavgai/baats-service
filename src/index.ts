@@ -1,4 +1,5 @@
 ﻿import axios, { AxiosPromise, AxiosRequestConfig } from "axios";
+export { AxiosRequestConfig };
 
 export type ServiceResult<T> =
     | { success: true; payload: T }

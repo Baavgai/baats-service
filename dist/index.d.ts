@@ -1,4 +1,5 @@
 import { AxiosRequestConfig } from "axios";
+export { AxiosRequestConfig };
 export declare type ServiceResult<T> = {
     success: true;
     payload: T;

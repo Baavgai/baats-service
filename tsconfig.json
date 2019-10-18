@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "jsx": "react",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "noLib": false,
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": [
+    "src"
+  ]    
+}
